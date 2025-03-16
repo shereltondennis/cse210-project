@@ -27,10 +27,10 @@ public class Journal
     private static Random _random = new Random();
     private List<string> _prompts = new List<string>
     {
-        "Who was the most interesting person I interacted with today?",
-        "What was the best part of my day?",
-        "How did I see the hand of the Lord in my life today?",
-        "What was the strongest emotion I felt today?",
+        "Who have I every made happy before?",
+        "What is the best part of this course CSE210 I loved?",
+        "How did I see the hand of the Lord in my life this year?",
+        "What was the strongest emotion I have ever felt?",
         "If I had one thing I could do over today, what would it be?"
     };
 
@@ -107,8 +107,8 @@ class Program
         {
             Console.WriteLine("\nMenu:");
             Console.WriteLine("1. Write a new entry");
-            Console.WriteLine("2. Display the journal");
-            Console.WriteLine("3. Save the journal to a file");
+            Console.WriteLine("2. Save the journal to a file");
+            Console.WriteLine("3. Display the journal" );
             Console.WriteLine("4. Load the journal from a file");
             Console.WriteLine("5. Exit");
             Console.Write("Choose an option: ");
